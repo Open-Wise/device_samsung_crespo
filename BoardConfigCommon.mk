@@ -97,5 +97,5 @@ BOARD_CUSTOM_VSYNC_IOCTL := false
 
 # Inline kernel building
 TARGET_KERNEL_SOURCE := kernel/samsung/crespo
-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro/bin/arm-linux-gnueabihf-
 TARGET_KERNEL_CONFIG := slim_defconfig
